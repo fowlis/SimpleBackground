@@ -1,6 +1,6 @@
 ### Simply adds a background image to the Discord app while keeping the Discord feel. 
 ## Preview
-![preview](https://fowlis.github.io/SimpleBackground/preview.png)
+<img src="preview.png">
 
 ## Usage
 ```css
