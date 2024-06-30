@@ -16,6 +16,7 @@
 
 Copy the above to your CSS editor.
 
+Make sure the `@import` line is at the *top* of the editor, else it won't work. You can put the `:root {}` lines anywhere else.
 ### BetterDiscord
 The CSS editor can be found at __Settings > Custom CSS__
 ### Vencord
