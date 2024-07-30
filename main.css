@@ -88,7 +88,7 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
  
 /* Embeds and invites */
 .invite_f61cb8 {backdrop-filter:blur(var(--sides-blur))}
-.wrapper_b9fe76, .embedFull_ad0b71 {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.wrapper_a71a1c, .embedFull_b0068a {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
  
 /* Reactions */
 .reaction_f61c73 {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
