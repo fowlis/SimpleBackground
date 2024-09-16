@@ -22,7 +22,7 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 #app-mount {background:var(--background) center/cover no-repeat}
 #app-mount>.app_bd26cc>:not(.app_a01fb1) {background:rgba(var(--color-primary),var(--chat-transparency))!important;backdrop-filter:blur(var(--sides-blur))}
 :focus {outline:none}
-.enterDone_f906dd>.verification_ce1f6e {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
+.enterDone_fccaa9>.verification_cdbc7c {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 #app-mount>.errorPage_dd2aa2 {background-color:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
 .artwork-L5TAwQ {display:none}
  
@@ -147,7 +147,7 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 .contentRegion_c25c6d {background:rgba(var(--color-primary),var(--chat-transparency))}
  
 /* Channel perms */
-.scroller_e9196a {background:transparent}
+.scroller_ff90b2 {background:transparent}
  
 /* Server roles */
 .titleContainer_e87574::before, .stickyHeader_bd05f1::before, .header_bd05f1::before {background:var(--background) center/cover fixed}
