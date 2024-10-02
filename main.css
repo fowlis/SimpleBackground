@@ -55,7 +55,7 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
  
 /* Member list (chat, threads, groups, NSFW Warning, forums) */
 .members_cbd271, .members_cbd271>div, .membersWrap_cbd271, .tabs-1RhQha, .container-NkLXgf, .container_cbd271, .member_a31c43 {background:transparent}
-.chatContent_a7d72e + div, .scroller_fbb822 + div, .container-3wLKDe + .container_cbd271 {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.chatContent_a7d72e + div, .scroller_fbb822 + div, .container-3wLKDe + .container_cbd271, .container_a6d69a + .container_cbd271 {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
  
 /* User panel */
 .panels_a4d4d9 {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
