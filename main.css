@@ -16,7 +16,20 @@
     --color-secondary-alt:235,237,239;
     --color-tertiary:227,229,232;
 }
- 
+
+/* VX support */
+body.vx .vx-dashboard-navigation{
+    background: rgba(var(--color-secondary), var(--sides-transparency));
+    backdrop-filter: blur(var(--sides-blur));
+}
+
+body.vx .vx-page .vx-page-body{
+    background:rgba(var(--color-primary),var(--chat-transparency));
+}
+
+
+.container_a6d69a + .container_cbd271 {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+
 /* General */
 body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 #app-mount {background:var(--background) center/cover no-repeat}
