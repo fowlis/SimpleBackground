@@ -16,7 +16,17 @@
     --color-secondary-alt:235,237,239;
     --color-tertiary:227,229,232;
 }
- 
+
+/* VX support */
+body.vx .vx-dashboard-navigation{
+    background: rgba(var(--color-secondary), var(--sides-transparency));
+    backdrop-filter: blur(var(--sides-blur));
+}
+
+body.vx .vx-page .vx-page-body{
+    background:rgba(var(--color-primary),var(--chat-transparency));
+}
+
 /* General */
 body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 #app-mount {background:var(--background) center/cover no-repeat}
@@ -55,19 +65,29 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
  
 /* Member list (chat, threads, groups, NSFW Warning, forums) */
 .members_cbd271, .members_cbd271>div, .membersWrap_cbd271, .tabs-1RhQha, .container-NkLXgf, .container_cbd271, .member_a31c43 {background:transparent}
-.chatContent_a7d72e + div, .scroller_fbb822 + div, .container-3wLKDe + .container_cbd271 {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.chatContent_a7d72e ~ div, .scroller_fbb822 + div, .container-3wLKDe + .container_cbd271, .container_a6d69a + .container_cbd271 {background:rgba(var(--color-secondary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
  
 /* User panel */
 .panels_a4d4d9 {background:rgba(var(--color-secondary-alt),var(--sides-transparency))}
 #app-mount .container_b2ca13 {background:transparent}
  
 /* Chat */
-.chat_a7d72e, .container_d1c246, #app-mount .container_c2efea {background:transparent} /* Chat, threads chat and browse channels (beta) */
-.chatContent_a7d72e, .chat_fb4810, #app-mount .container-3wLKDe, #app-mount .container_f1fd9c, .chatHeaderBar_efb691 {background:rgba(var(--color-primary),var(--chat-transparency))} /* Chat, threads chat, forums and browse channels (beta), not in channel list notice */
+.pageBody_c2efea, .chat_a7d72e, .container_d1c246, #app-mount .container_c2efea {background:transparent !important} /* Chat, threads chat and browse channels (beta) */
+:not(.messagesWrapper_e2e187)>.auto_c49869.scrollerBase_c49869, .chatContent_a7d72e, .chat_fb4810, #app-mount .container-3wLKDe, #app-mount .container_f1fd9c, .chatHeaderBar_efb691 {background:rgba(var(--color-primary),var(--chat-transparency))  !important} /* Chat, threads chat, forums and browse channels (beta), not in channel list notice */
 #app-mount .form_a7d72e:before {display:none} /* Small thing left to text input */
 .wrapper_ba0ffb, .wrapper_b75bb9 {background:transparent} /* Messages not loading */
 .content_c2654d {background:transparent;backdrop-filter:blur(5px)} /* New day divider */
  
+/* Skeleton */
+.wrapper_cdfd51 {
+    background: none !important;
+}
+
+/* Forum */
+.container_a6d69a {
+    background:rgba(var(--color-primary),var(--chat-transparency));
+}
+
 /* Threads */
 .chat_a7d72e.threadSidebarOpen_a7d72e {border-radius:0}
 .container_d1c246 {margin-left:0;border-radius:0}
@@ -111,7 +131,7 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 .card_d4f6c7, .container_c68a2c, .container__29699 {background:rgba(var(--color-primary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
  
 /* Tool bar */
-#app-mount .container_fc4f04.themed_fc4f04 {background:rgba(var(--color-primary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+#app-mount .container_fc4f04.themed_fc4f04 {background:rgba(var(--color-primary),var(--sides-transparency)) !important;backdrop-filter:blur(var(--sides-blur))}
 #app-mount .children_fc4f04:after {display:none}
  
 /* Calls */
