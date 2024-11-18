@@ -74,9 +74,9 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 .resizeHandle_d1c246 {background:rgba(var(--color-tertiary),var(--chat-transparency))}
  
 /* Message input */
-.channelTextArea_d0696b {background:transparent;backdrop-filter:blur(var(--sides-blur))}
-.theme-dark .chatContent_a7d72e .scrollableContainer_d0696b {background:rgba(64,68,75,var(--chat-transparency))}
-.theme-light .chatContent_a7d72e .scrollableContainer_d0696b {background:rgba(235,237,239,var(--chat-transparency))}
+.channelTextArea_bdf0de {background:transparent;backdrop-filter:blur(var(--sides-blur))}
+.theme-dark .chatContent_a7d72e .scrollableContainer_bdf0de {background:rgba(64,68,75,var(--chat-transparency))}
+.theme-light .chatContent_a7d72e .scrollableContainer_bdf0de {background:rgba(235,237,239,var(--chat-transparency))}
 .chatContent_a7d72e .container_b11c5e {background:rgba(var(--color-secondary),var(--chat-transparency));backdrop-filter:blur(var(--sides-blur))}
  
 .scrollerSpacer_e2e187 {height:22px} /* Chat spacer (bottom) */
