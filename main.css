@@ -42,6 +42,7 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 /* Server list */
 .wrapper_fea3ef {background:transparent}
 .scroller_fea3ef {background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur))}
+.itemsContainer_fea3ef {background:rgba(var(--color-tertiary),var(--sides-transparency));backdrop-filter:blur(var(--sides-blur));} /* fix missing background below discover button - 3/12/24 */
  
 /* Channels and friends */
 #app-mount .sidebar_a4d4d9, .notice_a50047 {border-radius:0}
