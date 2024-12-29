@@ -138,7 +138,7 @@ body, .app_a01fb1, .bg_d4b6c5 {background:transparent}
 /* Calls */
 #app-mount .wrapper_d880dc {background:transparent} /* DMs */
 .callContainer_d880dc {background:transparent} /* Server VC */
-.wrapper_d880dc.chatSidebarOpen_d880dc .callContainer_d880dc {border-radius:0} /* Server VC with chat open */
+.wrapper_d880dc.sidebarOpen_d880dc .callContainer_d880dc {border-radius:0} /* Server VC with chat open */
  
 /* Stage channels */
 .container_ed4410, .callContainer_ed4410, .scroller_bb12d2,
