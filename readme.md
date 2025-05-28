@@ -1,3 +1,6 @@
+> [!WARNING]
+> I am no longer maintaining this. If someone would like to fork or PR fixes I would appreciate it.
+
 ### Simply adds a background image to the Discord app while keeping the Discord feel. 
 ## Preview
 <img src="preview.png">
